@@ -1,0 +1,79 @@
+body,html{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:gainsboro;
+}
+/* THẺ HEAD */
+.khunghead{
+    width:100%;
+    height:auto;
+    background-color:gold;
+    display:flex;
+    align-items:center;
+}
+.khunghead__image{
+    display:inline-block;
+}
+.khunghead__items{
+    display:inline-block;
+}
+/* THẺ BODY */
+.khung{
+    background-color:gray;
+}
+
+/* THẺ CHUNG */
+.box{
+    display:flex;
+    justify-content:space-around;
+    background-color:white;
+    border-left:4px solid;
+    padding:20px 12px;
+    margin-top:20px;
+}
+
+/* CÁC PHẦN TỬ CHUNG */
+.box__item{ 
+    display:flex;
+    align-items:center;
+    font-size:24px;
+    padding: 0 16px;
+    cursor:pointer;
+}
+.box__body{
+    margin:0 12px;
+    padding: 0 12px;
+    cursor:pointer;
+}
+.box__close{
+    display:flex;
+    align-items:center;
+    padding: 0 16px;
+    cursor:pointer;
+}
+/* HIỆU ÚNG ĐỘNG  */
+/* THẺ THỨ NHÁT */
+.box__item--thunhat{
+    transition:background 0.3s ease-in-out;
+}
+.box__item--thunhat:hover{
+    opacity:0.5;
+}
+/* THỂ THỨ HAI */
+.box__item--thuhai{
+    transition:background 0.3s ease-in-out;
+}
+.box__item--thuhai:hover{
+    opacity:0.5;
+}
+/* THẺ THỨ BA */
+.box__item--thuba{
+    transition:background 0.3s ease-in-out;
+}
+.box__item--thuba:hover{
+    opacity:0.5;
+}
